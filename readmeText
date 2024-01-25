@@ -1,5 +1,7 @@
 # 42Istanbul 
 
+# 42Istanbul 
+
 Ex00
 1. touch z 
 2. Vim z
@@ -15,11 +17,10 @@ Ex01
 
 Dosya tarihi değiştirme
 1. Touch testShell00 ile dosya oluşturulur.
-2. Yol : touch -h -a -m -t 202406010000
 Kısa yol 
-2. Yol : touch -t 202406010000 yazarak yıl bilgisi değiştirilebilir.
+2. Yol : touch -t 06012348 test1 yazarak yıl bilgisi değiştirilebilir.
 
-1. -h hedef dosya sembolik link in kendisine değil işaret ettiği dosyaya iki etmesini sağlar.
+1. -h hedef dosya sembolik link in kendisine değil işaret ettiği dosyaya etki etmesini sağlar.
 2. -a dosyanın erişim zamanı güncellenir. Değişiklik zamanı değişmez.
 3. -m dosyanın değişiklik zamanı günceller erişim zamanını güncelleme.
 4. -t belirtilen zaman damgasını kullanarak dosyanın zaman damgalarını ayarlar. Zaman damgası formatı [YYMMDDhhmm] şeklindedir
@@ -28,6 +29,7 @@ Kısa yol
 Ex02 
 
 link li dosya oluşturma test6 -> test0
+ln -f test3 test5
 ln -s test0 test6
 => alt dizin test0 ana dizin test6 olarak çalışır.
 Tarih bilgisini değiştirdikten sonra dosya izinlerin chmod ile değiştirildiğinde izin yazısının solunda yer alan 2 1 2 2 1 2 1 sırasıyla her dosya kendi yapısına göre numaralandırılmaktadır. 
@@ -37,8 +39,8 @@ Test6 izin değiştirilmesi : chmod -h 777 test6
 Open exo2.tar ile açılınca izinler değişmiyor.
 
 ———— ———————— ————
-Tar -cvpf exo2.tar test*
-Tar -xvpf exo2.tar 
+Tar -cf exo2.tar test*
+Tar -xpf exo2.tar 
 ————————————————— 
 
 Link -> li dosya nın dizinlerini değiştirmek.
@@ -91,26 +93,39 @@ Ex05
 
 Ex06
 
-tar dosyasına dönüştürme.
-tar -cf exo2.tar test (* yıldız işareti koyarsan tüm test dosyalarını içne alır. *)
-Dosyayı .tar çevirir.
-tar -xf exo2.tar 
-tar dosyasının içeriklerini dışarı çıkartır.
-
-git kullanımı
-git init 
-git add .
-git commit -m "ilk mesaj"
-git push
-
-bu adımlarla git ile gönderimnini yapıyorsun.
-git log --format="%H" -n5 
-vim ile git_commit.sh içerisine ekliyoruz.
-daha sonra istediğimiz dizin de çalıştırmak için.
-bash git_commit.sh | cat -e 
-komutunu çalıştırıyoruz 
-
--n5 son 5 komutu alıyor.
+Touch ile git_ignored.sh dosyası oluşturuyoruz.
+İçerisine git ls-files --others --ignored --exclude-standard yazılır.
+Burada :  
+1. Git ls-files git içerisindeki dosyaları gösterir. 
+2. —other git tarafından izlenmeyen dosyaları gösterir. 
+3. —ignored git ls-files komutu tarafından gösterilmeyen ancak .gitignore dosyası veya diğer ignore kuralları tarafından yoksayılan dosyaları  listelemek için kullanılır. 
+4. —exclude-standard git’in standar yoksayma kuralları , bu kuralları aktif eder.
 
 
-Ex07
+Touch .gitignore
+İçerisindeki dosyaları almadan göndermeyi 
+.gitignore dosyası oluşturarak ignore olacak dosyaları giriyoruz.
+
+
+
+
+Eksikler: ~
+
+Git —other git tarafından izlenmeyen
+Git —ignored ise git ls-files gösterilmeyen ancak .gitignore dosyası ve diğer ignore kuralları tarafından yoksayılan dosyaları listelemek için kullanılır.
+git --exclude-standard komutu, gitignore dosyalarında veya gitin varsayılan ayarlarında (standard) yer almayan dosyaları dikkate alarak işlem yapar veya göz ardı eder.
+
+
+
+Ls -pmt 
+M ( , ) temsil eder.
+P ( / ) temsil eder.
+T ( Zaman ) Temsil eder.
+
+Ln -f test3 test5 
+Test3 force ederek test 5 üzerine yazılır.
+ln -f komutu, hedef dosyanın varlığını gözetmeksizin bağlantı oluşturur veya hedef dosyayı değiştirir.
+
+Ln -s test0 test6
+Test0 ın kısayolunu test6 da oluştururuz.
+
