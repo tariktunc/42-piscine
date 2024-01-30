@@ -38,3 +38,4 @@ void	ft_print_bom2(void)
 	}
 }
 
+// Wait...
