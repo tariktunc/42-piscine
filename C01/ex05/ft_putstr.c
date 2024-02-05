@@ -1,39 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_swap.c                                          :+:      :+:    :+:   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ttunc <ttunc@student.42istanbul.com.tr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/05 00:37:10 by ttunc             #+#    #+#             */
-/*   Updated: 2024/02/05 21:53:55 by ttunc            ###   ########.fr       */
+/*   Created: 2024/02/05 22:34:27 by ttunc             #+#    #+#             */
+/*   Updated: 2024/02/05 23:36:22 by ttunc            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include <unistd.h>
 
-void ft_swap(int *a, int *b)
-{
-    int swap = *a;
-    *a = *b;
-    swap = *b;
+void ft_putstr(char *str) {
+	while (*str != '\0') {
+		write(1, str, 1);
+		str++;
+	}
+	write(1, "\n", 1);
 }
 
-int main()
-{
-    int a;
-    int b;
-
-    int *ptra;
-    int *ptrb;
-
-    a = 1;
-    b = 2;
-
-    ptra = &a;
-    ptrb = &b;
-
-    ft_swap(ptra, ptrb);
-
-    printf("a : %d, b : %d\n", a, b);
+int main() {
+	char myString[] = "Merhaba, dunya!";
+	ft_putstr(myString);
+	return 0;
 }
+

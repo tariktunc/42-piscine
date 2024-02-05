@@ -1,39 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_swap.c                                          :+:      :+:    :+:   */
+/*   ft_div_mod.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ttunc <ttunc@student.42istanbul.com.tr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/05 00:37:10 by ttunc             #+#    #+#             */
-/*   Updated: 2024/02/05 21:53:55 by ttunc            ###   ########.fr       */
+/*   Created: 2024/02/05 21:55:07 by ttunc             #+#    #+#             */
+/*   Updated: 2024/02/05 22:03:00 by ttunc            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
-void ft_swap(int *a, int *b)
+void ft_div_mod(int a, int b, int *div, int *mod)
 {
-    int swap = *a;
-    *a = *b;
-    swap = *b;
+    *div = a / b;
+    *mod = a % b;
 }
 
-int main()
+int main(void)
 {
-    int a;
-    int b;
+	int a;
+	int b;
+	int mod;
+	int div;
 
-    int *ptra;
-    int *ptrb;
+	a = 5;
+	b = 2;
 
-    a = 1;
-    b = 2;
+	printf("a : %d, b : %d\n", a, b);
 
-    ptra = &a;
-    ptrb = &b;
+	ft_div_mod(a, b, &div, &mod);
 
-    ft_swap(ptra, ptrb);
-
-    printf("a : %d, b : %d\n", a, b);
+	printf("a : %d, b : %d, div : %d, mod : %d\n", a, b, div, mod);
 }
