@@ -6,28 +6,32 @@
 /*   By: ttunc <ttunc@student.42istanbul.com.tr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/30 20:10:03 by ttunc             #+#    #+#             */
-/*   Updated: 2024/02/01 17:52:49 by ttunc            ###   ########.fr       */
+/*   Updated: 2024/02/07 14:19:57 by ttunc            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchar(int a, int b)
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
+
+void	write_n(int a, int b)
 {
 	char	c;
 
 	c = '0' + (a / 10);
-	write(1, &c, 1);
+	ft_putchar(c);
 	c = '0' + (a % 10);
-	write(1, &c, 1);
+	ft_putchar(c);
 	write(1, " ", 1);
 	c = '0' + (b / 10);
-	write(1, &c, 1);
+	ft_putchar(c);
 	c = '0' + (b % 10);
-	write(1, &c, 1);
-	if (a != 98 && a != 99)
-		write(1, ",", 1);
-	write(1, " ", 1);
+	ft_putchar(c);
+	if (a != 98)
+		write(1, ", ", 2);
 }
 
 void	ft_print_comb2(void)
@@ -41,16 +45,10 @@ void	ft_print_comb2(void)
 	{
 		while (b <= 99)
 		{
-			ft_putchar(a, b);
+			write_n(a, b);
 			b++;
 		}
 		a++;
 		b = a + 1;
 	}
-}
-
-int	main(void)
-{
-	ft_print_comb2();
-	return (0);
 }
