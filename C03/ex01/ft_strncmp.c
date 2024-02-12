@@ -18,7 +18,7 @@ int ft_strncmp(char *s1, char *s2, unsigned int n) // s1 ve s2 adında iki strin
     unsigned int i; // i adında bir değişken tanımla
 
     i = 0;
-    while (i < n) // n kadar kontrol yap
+    while (i < n && (s1[i] || s2[i])) // n kadar kontrol yap
     {
         if (s1[i] != s2[i]) // eğer s1 ve s2 nin i. indexleri eşit değilse
         {
