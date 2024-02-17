@@ -61,3 +61,5 @@ Yeni bir terminal açın
 
 # Sınav Pratik Aracı
 Sınavı gerçek sınav gibi pratik yapmak için bu aracı kullanabilirsiniz - [Grademe](https://grademe.fr/)
+
+Buradan projelerinizin yaklaşık %70 doğruluk oranıyla test edebilirsiniz. [Mini Moulinette](https://github.com/khairulhaaziq/mini-moulinette)
