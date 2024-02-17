@@ -1,5 +1,11 @@
 # 42 Eğitimine Dair Dikkat Edilmesi Gerekenler
 
+#
+
+Merhaba burada sizlere kısaca 42 Echole okullarında havuz içerisin de neler yaşayacağınız ile alakalı kısa bilgiler aktaracağım, bu bilgileri de farklılık yada eksikleri lütfen bildirmeyi unutmayın.
+
+#
+
 ## İlk Hafta
 
 İlk gün, 9:42'de içeri alımlar başlamaktadır. Bu saatten önce gelmenizde bir değişiklik olmayacaktır. 9:42'de içeri alımlar başladığında, kart dağıtımı gerçekleşmektedir. 42 numaralı kartı bu sırada almaya çalışabilirsiniz. Kart dağıtımı sırasında çekinmeden talepte bulunun. Oradaki herkes sizlere yardımcı olmak zorundadır, tabii ki projelerinizle ilgili değil :).
