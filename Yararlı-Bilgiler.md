@@ -18,7 +18,8 @@ Rush projesine katılmayı düşünüyorsanız, çok yeniyseniz bu karar çok ri
 
 Artık C00'ü vermiş olun ya da ilk günden verin. C01 ile başlayın. Pointer öğrenmeye çalışın, çünkü C01'de pointer konusu işlenecek ve bu konuyu iyice öğreneceksiniz. Argüman nedir öğrenin, çünkü sınavlarda argümanlı sorular gelmeye başlayacak. Mutlaka 4 sınavdan 2 kere "success" almaya çalışın. Hızlı ilerlemek için soru sorun ve öğrenerek ilerleyin, KESİNLİKLE EZBER yapmayın. Amacınız öğrenmek, her cuma sınavlara gireceksiniz.
 
-Üçüncü Hafta
+## Üçüncü Hafta
+
 Şimdi artık ortalarına geldiniz, C03'e kadar ilerlemeniz önemlidir. Bu hafta içinde gidebildiğiniz kadar gidin, C05'e kadar gidebilirseniz, sizin için çok iyi olacaktır. Öğrendiğiniz sürece hızlı ilerlemekten çekinmeyin, C07'ye kadar gitmek sizi son hafta sınava hazırlar. İçeride mutlaka kaynaşın ve Evo yapmaktan çekinmeyin, yeni bilgilere açık olun.
 
 ## Dördüncü Hafta
