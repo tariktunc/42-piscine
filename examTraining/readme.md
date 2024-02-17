@@ -21,3 +21,43 @@ only_z	          | ulstr             	|	print_bits	            	| pgcd          
 ---           |                     	| union         | str_capitalizer   | moment
 ---	          |                     	| wdmatch            | tab_mult         
 
+
+
+
+# Sınav Girişi Nasıl Yapılır
+
+- **Kullanıcı adı:** exam
+- **Şifre:** exam
+
+Terminalde `examshell` yazın
+
+- **Kullanıcı adı:** 42 intra kullanıcı adınız (örneğin: prossi)
+- **Şifre:** Şifreniz
+
+Fotoğraf kontrolüne izin ver
+
+`examshell` içinde sadece şu 3 komutu kullanabilirsiniz:
+
+- `status` - zamanı ve diğer şeyleri kontrol et
+
+- `grademe` - gönderilmiş egzersizi kontrol etme (moulinet)
+
+- `finish` - examshell'i kapatma ve sınavı bitirme
+
+Yeni bir terminal açın
+
+- Sınav konunuzu `subject` dizininde bulabilirsiniz.
+- Ardından `Rendu` dizinini göreceksiniz. Bu sizin depo (repository) dizinizdir.
+- Projeyi adlandıran dizini oluşturmalısınız, .c ve/veya .h dosyasını oluşturmalısınız ve çalışmaya başlamalısınız.
+- Hazır olduğunuzda, `Rendu` dizinine gidin ve aşağıdaki adımları uygulayarak dizini gönderin:
+
+  1. `git add .`
+
+  2. `git commit -m "tamam"`
+
+  3. `git push`
+
+  4. `git push`'tan sonra `grademe` yazın
+
+# Sınav Pratik Aracı
+Sınavı gerçek sınav gibi pratik yapmak için bu aracı kullanabilirsiniz - [Grademe](https://grademe.fr/)
