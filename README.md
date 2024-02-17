@@ -29,7 +29,7 @@
 
 ## Nasıl Katkıda Bulunabilirsiniz?
 
-Eksik veya yanlış bilgileri düzeltmek için [issues](./issues) adresinden iletişime geçebilirsiniz.
+Eksik veya yanlış bilgileri düzeltmek için [issues](https://github.com/tariktunc/42-piscine/issues) adresinden iletişime geçebilirsiniz.
 Yeni projeler ekleyerek dokümanı güncel tutabilirsiniz.
 Genel düzenlemeler ve geliştirmeler yapabilirsiniz.
 Bu repo, birbirimize destek olup bilgi paylaşımını arttırmamıza yönelik bir çaba içerisindedir. Katkılarınızı bekliyorum!
