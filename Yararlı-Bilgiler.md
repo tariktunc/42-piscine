@@ -2,7 +2,7 @@
 
 #
 
-Merhaba burada sizlere kısaca 42 Echole okullarında havuz içerisin de neler yaşayacağınız ile alakalı kısa bilgiler aktaracağım, bu bilgileri de farklılık yada eksikleri lütfen bildirmeyi unutmayın.
+Merhaba burada sizlere kısaca 42 École okullarında havuz içerisin de neler yaşayacağınız ile alakalı kısa bilgiler aktaracağım, bu bilgileri de farklılık yada eksikleri lütfen bildirmeyi unutmayın.
 
 #
 
