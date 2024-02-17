@@ -1,8 +1,7 @@
 # 42Istanbul 
 
-# 42Istanbul 
+## Ex00
 
-Ex00
 1. touch z 
 2. Vim z
 3. İ tuşuna basarak insert edilir. Yazma aşamasına geçilir
@@ -13,7 +12,7 @@ Ex00
 8. Q çıkış yap anlamına gelir.
 9. İşlem bukadar.
 
-Ex01
+## Ex01
 
 Dosya tarihi değiştirme
 1. Touch testShell00 ile dosya oluşturulur.
@@ -26,7 +25,7 @@ Kısa yol
 4. -t belirtilen zaman damgasını kullanarak dosyanın zaman damgalarını ayarlar. Zaman damgası formatı [YYMMDDhhmm] şeklindedir
 
 
-Ex02 
+## Ex02 
 
 link li dosya oluşturma test6 -> test0
 ln -f test3 test5
@@ -38,16 +37,14 @@ Test6 izin değiştirilmesi : chmod -h 777 test6
 
 Open exo2.tar ile açılınca izinler değişmiyor.
 
-———— ———————— ————
 Tar -cf exo2.tar test*
 Tar -xpf exo2.tar 
-————————————————— 
 
 Link -> li dosya nın dizinlerini değiştirmek.
 
 Chmod -h 777 test6 
 
-Ex03 
+## Ex03 
 
 ssh key oluşturma:
 
@@ -61,7 +58,7 @@ ssh key oluşturma:
 2. id_rsa ve id_rsa.pub dosyasını silinebilir.
 3. Bunun dışında başka bir şey yapmıyoruz.
 
-Ex04 
+## Ex04 
 
 -> bash ex04/midLs çalıştırma oluşturma adımları.
 
@@ -73,7 +70,7 @@ Ex04
 6: -p her bir dizinin sonuna ( / ) ekler.
 7: -t dizinin son değiştirilme tarih’ ine göre sıralar.
 
-Ex05 
+## Ex05 
 
 1. Git add .
 2. Git commit -m “ilk mesaj”
@@ -91,7 +88,7 @@ Ex05
 
 
 
-Ex06
+## Ex06
 
 Touch ile git_ignored.sh dosyası oluşturuyoruz.
 İçerisine git ls-files --others --ignored --exclude-standard yazılır.
@@ -109,7 +106,7 @@ Touch .gitignore
 
 
 
-Eksikler: ~
+## Eksikler: ~
 
 Git —other git tarafından izlenmeyen
 Git —ignored ise git ls-files gösterilmeyen ancak .gitignore dosyası ve diğer ignore kuralları tarafından yoksayılan dosyaları listelemek için kullanılır.
@@ -128,4 +125,3 @@ ln -f komutu, hedef dosyanın varlığını gözetmeksizin bağlantı oluşturur
 
 Ln -s test0 test6
 Test0 ın kısayolunu test6 da oluştururuz.
-
