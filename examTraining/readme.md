@@ -1,25 +1,23 @@
-# EXAM İle İlgili Bazı Bilgiler
+- Sınav, Seviye 0'dan başlayacak ve her doğru cevap ile bir sonraki soruya geçilecektir. 
+- Her sınavda Seviye 0'dan farklı bir soru ile başlayacaksınız. Final sınavında Norminette bulunmayacak.
 
-Sınav girişi yaparken "exam exam" olarak giriş yapıyorsunuz. Ardından terminal açarak "examshell" yazıyorsunuz. Burada size PDF gönderilecek, detaylıca okumanız önemlidir, çünkü sınav sistemi değişiklik gösterebilir.
+# Exam Levels
 
-## Sınav Soruları
+Level 00          | Level 01            | Level 02          | Level 03          | Level 04            | Level 05
+:-----------  	  | :-----------:       | :-----------:     | -----------:      | -----------:        | -----------:
+aff_a             | first_word          | alpha_mirror      | add_prime_sum     | check_mate          | brackets
+aff_first_param	  | ft_putstr           | do_op	            | epur_str          | fprime              | print_memory
+aff_last_param	  | ft_strcpy           | ft_atoi	      	| expand_str        | ft_itoa             | rpn_calc
+aff_z		  | ft_strlen                 | ft_strcmp 		        | ft_atoi_base      | ft_list_foreach     | cycle_detector
+ft_countdown	  | ft_swap		          | ft_strdup 	      | ft_list_size      | ft_list_remove_if   | options
+ft_print_numbers  | repeat_alpha		| ft_strrev	      | ft_range          | ft_split            | biggest_pal
+hello		  | rev_print	          |	inter		    	| ft_rrange         | rev_wstr            |
+maff_alpha	  | rot_13	          |	is_power_of_2       			| hidenp            | rostring            |
+maff_revalpha	  | rotone          	  |	last_word 	    | lcm               | sort_int_tab        |
+only_a	          | search_and_replace	|	max     		| paramsum          | sort_list           |
+only_z	          | ulstr             	|	print_bits	            	| pgcd              | flood_fill
+---	          |    fizzbuzz                	| reverse_bits        | print_hex         | brainfuck
+---	          |                     	| swap_bits      | rstr_capitalizer  | ft_itoa_base
+---           |                     	| union         | str_capitalizer   | moment
+---	          |                     	| wdmatch            | tab_mult         
 
-Daha önce çıkmış tüm sınav soruları burada bulunmaktadır. Bazı soruların cevaplarının daha kısa yolları da vardır, ancak bu her zaman geçerli olmuyor, bu yüzden eklemiyorum.
-
-İlk üç sınavınızda gelen sorular her zaman aynıdır, sadece farklı bir sıra ile gelirler. Eksik soruları elimden geldiğince ekleyeceğim. Size şunu söylemek isterim: Sınavdan önce buradaki soruları çözebildiğinizden emin olun. Sınav süresince hiçbir extension, wifi, internet olmayacak. Üst taramasından geçeceksiniz ve ortam çok ciddi bir hal alacak. Kopya çekme ihtimaliniz yok. Tuvalet için 2 saat beklemeniz ve bir görevli eşliğinde gitmeniz gerekiyor, kapıda sizleri bekleyen görevli bulunmaktadır. Bu nedenle sınavlara çalışmayı ihmal etmeyiniz.
-
-Sınava en güzel çalışabileceğiniz web sitesi.
-
-[Grademe](https://grademe.fr/)
-
-Eğer havuzunuz başlamadıysa mutlaka YouTube'dan aratarak buradaki sorulara ve PDF'lere çalışın, göz gezdirin ve Grademe kullanımını öğrenin; bunların hepsi sizin için bir adım ileri gitmeyi kolaylaştırır. Unutmayın, buradaki tüm bilgileri tanımadığınız havuz arkadaşlarınıza dahi söyleyin.
-
-#### BURADA HERKES KENDİ BACAĞINDAN ASILIYOR, SIRALAMA VAR ANCAK SİZİN SUCCESS'LERİNİZ BU SIRALAMADA SİZİ GERİYE ATABİLİR. HER NE KADAR GERİDE OLSANIZ DA BAZI SUCCESS'LAR SAYESİNDE HAVUZU GEÇEBİLİRSİNİZ. UNUTMAYIN, KİMSE BİRŞEY PAYLAŞMAZSA BURADA OLMANIZIN BİR AMACI OLMAZ. BENCİL OLMAYIN.
-
-Sizlere 2-3 sınavda "atoi" demeye başlayacaklar. Her havuzda gelen soru olduğunu düşünüyorum; bizden önce de geldi, bize de geldi. C projelerinde "atoi" yapıyorsunuz, iyice anlayarak yapın; sınavda sizlere soracaklar.
-
-Unutmayın, ilk sınav ile birlikte **pointer, argümanlı sorular** her zaman gelecektir. Bunları biraz araştırmanızı ve öğrenmenizi öneririm. PDF'leri mutlaka detaylıca okuyun.
-
-### `gcc -w -w -w` YAZMAYIN
-
-### `gcc -Wall -Wextra -Werror` olarak kullanılacak. `gcc` veya `-w` yazarak yaptığınızda hata almazsınız, ancak yapay zeka bu şekilde çalıştırıyor ve hata aldığı anda fail oluyorsunuz.
