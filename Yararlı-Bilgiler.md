@@ -4,6 +4,18 @@
 
 Merhaba burada sizlere kısaca 42 École okullarında havuz içerisin de neler yaşayacağınız ile alakalı kısa bilgiler aktaracağım, bu bilgileri de farklılık yada eksikleri lütfen bildirmeyi unutmayın.
 
+# Mini Moulinette ile Tanışma
+
+Sizlere ilk gün belki çok anlatmayacaklardır, belki sizi Moulinette ile tanıştırayım. Başınıza bela olacak bir yapay zeka, sizi evo dan geçirseler bile görünmeyen hataları bulur ve size fail verir. Unutmayın, 1 noktada hata yaparsanız sonraki adımlarınız geçersiz sayılır. Sınavda ise 1 soruyu yapmadan sonraki soruya geçemezsiniz.
+
+Burada size çok özel bir web sitesi vereceğim. İlk günden paylaşırsanız herkesin gözdesi olursunuz.
+
+## [Mini Moulinette](https://github.com/khairulhaaziq/mini-moulinette) 
+Kullanarak projelerinizin %70 oranında geçip geçmeyeceğini görebilirsiniz. Kullanım için lütfen README dosyasını okuyunuz.
+
+## [Grademe](https://grademe.fr/)
+Kullanarak sınava hazırlık yapabilirsiniz.
+
 #
 
 ## İlk Hafta
